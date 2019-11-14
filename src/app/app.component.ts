@@ -88,9 +88,9 @@ export class AppComponent {
   }
 
   getDate (pesel: Array<number>) {
-    this.getYear(pesel);
-    this.getMonth(pesel);
-    this.getDay(pesel);
+    this.year = this.getYear(pesel);
+    this.month = this.getMonth(pesel);
+    this.day = this.getDay(pesel);
   }
 
   verifyDate (y: number, m: number, d: number) {
