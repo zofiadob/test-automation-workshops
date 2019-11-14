@@ -23,10 +23,12 @@ Uruchom `ng lint` aby uruchomić linter TypeScriptu [TSLint](https://palantir.gi
 ## Uruchomienie testów jednostkowych
 
 Uruchom `ng test` aby wykonać testy jednostkowe z wykorzystaniem [Karma](https://karma-runner.github.io).
+Kod testów jednostkowych znajduje się w `/src/app/app.component.spec.ts`.
 
 ## Uruchomienie testów end-to-end
 
-Uruchom `ng e2e` aby wykonać testy jednostkowe z wykorzystaniem [Protractor](http://www.protractortest.org/).
+Uruchom `ng e2e` aby wykonać testy end to end z wykorzystaniem [Protractor](http://www.protractortest.org/).
+Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 
 ## Zadanie 1 - setup
 - [ ] Stwórz forka repozytorium
@@ -35,7 +37,7 @@ Uruchom `ng e2e` aby wykonać testy jednostkowe z wykorzystaniem [Protractor](ht
 
 ## Zadanie 2 - naprawa testów
 - [ ] Uruchom linter
-- [ ] Napraw wszystkie błędy lintera
+- [ ] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
 - [ ] Uruchom testy jednostkowe
 - [ ] Napraw testy jednostkowe
 - [ ] Uruchom testy End-to-End
