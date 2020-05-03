@@ -115,7 +115,7 @@ export class AppComponent {
       // Dates in the XIX century
       year -= 100;
     } else if (pesel[2] >= 2) {
-      // Dates in the XXI, XXII and XXIII  century
+      // Dates in the XXI, XXII and XXIII  century + nieznacząca zmiana
       year += Math.floor(pesel[2] / 2) * 100;
     }
 
@@ -123,4 +123,3 @@ export class AppComponent {
   }
 
 }
-//nieznacząca zmiana
