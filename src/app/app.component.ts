@@ -123,3 +123,4 @@ export class AppComponent {
   }
 
 }
+//nieznacząca zmiana
