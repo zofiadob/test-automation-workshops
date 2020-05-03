@@ -17,7 +17,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 292fd3ca6b4900966368b7fb841f394bced70003
+  github_token: test-automation-workshops
   local_dir: dist/pesel
   on:
     branch: master
