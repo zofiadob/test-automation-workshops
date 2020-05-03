@@ -14,3 +14,10 @@ script:
   - ng lint
   - ng test --watch=false --browsers=ChromeHeadless
   - ng build --prod --base-href https://bamanczak.github.io/pesel/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 292fd3ca6b4900966368b7fb841f394bced70003
+  local_dir: dist/pesel
+  on:
+    branch: master
