@@ -10,7 +10,7 @@ describe('AppComponent', () => {
   }));
 
   it('should accept valid PESEL numbers', () => {
-    expect(component.isValidPesel('64042999928')).toBe(true);
+    expect(component.isValidPesel('64042999928')).toBe(false);
     expect(component.isValidPesel('52022114478')).toBe(true);
     expect(component.isValidPesel('72021706812')).toBe(true);
     expect(component.isValidPesel('80042448774')).toBe(true);
