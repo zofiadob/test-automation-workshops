@@ -44,6 +44,7 @@ describe('AppComponent', () => {
     expect(component.verifyDate(2020, 2, 29)).toBe(true);
     expect(component.verifyDate(2020, 1, 1)).toBe(true);
     expect(component.verifyDate(2020, 12, 31)).toBe(true);
+    expect(component.verifyDate(1601, 12, 31)).toBe(true);
   });
 
   it('should reject invalid dates', () => {
@@ -60,6 +61,7 @@ describe('AppComponent', () => {
     expect(component.verifyDate(2019, 10, 32)).toBe(false);
     expect(component.verifyDate(2019, 11, 31)).toBe(false);
     expect(component.verifyDate(2019, 12, 32)).toBe(false);
+    expect(component.verifyDate(2019, 0, 0)).toBe(false);
   });
 
   it('should test getDate', () => {
