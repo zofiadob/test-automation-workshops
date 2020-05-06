@@ -13,7 +13,7 @@ before_script:
 script:
   - ng lint
   - ng test --watch=false --browsers=ChromeHeadless
-  - ng build --prod --base-href https://zofiadob.github.io/pesel/
+  - ng build --prod --base-href https://zofiadob.github.io/test-automation-workshops/
 deploy:
   provider: pages
   skip_cleanup: true
